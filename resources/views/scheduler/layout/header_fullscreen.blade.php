@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
+    <a href="/admin1" class="navbar-brand d-flex ">
+        <h2 class="text-success mb-0"><i class="fa fa-arrow-left"></i></h2>
+    </a>
+
+    <h2 class="main-title text-success">Production Sheet</h2>
+    <div class="navbar-nav align-items-center ms-auto">
+
+        <div class="nav-item dropdown mr-4">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                <i class="fa fa-bell me-lg-2"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
+                <a href="#" class="dropdown-item">
+                    <h6 class="fw-normal mb-0">Sent for Approval</h6>
+                    <small>15 minutes ago</small>
+                </a>
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item">
+                    <h6 class="fw-normal mb-0">Work Permit Approved</h6>
+                    <small>25 minutes ago</small>
+                </a>
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item">
+                    <h6 class="fw-normal mb-0">Work Permit Rejected</h6>
+                    <small>115 minutes ago</small>
+                </a>
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item text-center">See all notifications</a>
+            </div>
+        </div>
+        <div class="nav-item dropdown mr-4">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                <img class="ing-fluid rounded-circle me-lg-2" src=" {{ url('admin1/img/user-avatar.png') }}" alt="" style="width: 40px; height: 40px;">
+                <span class="d-none d-lg-inline-flex">{{Auth::user()->first_name}}</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
+                <!-- <a href="#" class="dropdown-item">My Profile</a> -->
+                <!-- <a href="#" class="dropdown-item">Settings</a> -->
+                <a href="/logout" class="dropdown-item">Log Out</a>
+            </div>
+        </div>
+    </div>
+</nav>
