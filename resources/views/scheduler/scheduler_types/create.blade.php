@@ -49,6 +49,12 @@
                 <h2 class="lead-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, facilis?
                 </h2>
+                <div class="d-flex mt-2">
+                    <div class="p-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quae saepe at rem culpa voluptatum!
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, tempore!</p>
+                </div>
             </div>
         </section>
         {{-- <div class="container-fluid pt-4 px-4">
