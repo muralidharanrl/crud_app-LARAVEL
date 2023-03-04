@@ -57,6 +57,12 @@
             </div>
             @endforeach --}}
 
+            <section class="bg-light mt-2">
+                <div class="container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sapiente aliquid, quam assumenda saepe expedita rem laudantium eum totam porro!</p>
+                </div>
+            </section>
+
 
         </div>
     </div>
